@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>a
+            <h3 style="color: orange;padding: 10px;text-align:center;">Container 1</h3>
+
+            <div id="left">
+                <div class="list" draggable="true">Item 1</div>
+                <div class="list" draggable="true">Item 2</div>
+                <div class="list" draggable="true">Item 3</div>
+                <div class="list" draggable="true">Item 4</div>
+            </div>
+        </div>
+
+        <div>
+            <h3 style="color: orange;padding: 10px;text-align:center;">Container 2</h3>
+
+            <div id="right">
+                <p id="dragMessage" style="color: white;text-align:center; margin:46px;">Drag items from Container 1</p>
+                <p id="successMessage" style="color: green; text-align:center; margin:10px 0;"></p>
+            </div>
+        </div>
+    </div>
+
+    <center>
+        <button id="resetBtn" onclick="resetContainers()">Reset</button>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
